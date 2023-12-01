@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mugherini Farms</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--- Top Nav ---->
+    <nav class="navbar navbar-expand-md navbar-light bg-light px-4 sticky-top" >
+        <a href="#" class="navbar-brand">
+            <img src="photos/logo-sm.png" alt="Chicken wearing sunglasses" height="35"/> Mugherini Farms</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#products"  class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item">
+                            <a href="#eggs">Eggs</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#asparagus">Asparagus</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#chives">Chives</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#strawberries">Strawberries</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!--- Hero Container -->
+    <header class="container p-4 my-2 text-white rounded-3">
+            <h1 class="display-5 fw-bold">Flying Feathers!</h1>
+            <p class="col-md-8 lead">
+                Here at Mugherini Farms the chickens are molting.  This means they are losing and regrowing all their feathers.
+                This occurs every year as the days start getting short.  While they are molting, our chickens stop laying
+                eggs.
+            </p>
+            <button class="btn btn-dark btn-lg" type="button">Learn More</button>
+    </header>
+    <!--- Content -->
+    <main class="container">
+        <h2 class="text-center display-5 border-bottom mb-3" id="about">About Our Farm</h2>
+        <div class="row g-3">
+            <article class="col-md-6 col-lg-4 col-xl-3">
+                <h3>History</h3>
+                <p>In the year 2018, nestled by Freeses Pond in Deerfield NH, 4 baby chickens were born.  They were named
+                Tina, Gerry (hens) and The Bobs (roosters).  As the flock got older, they moved outside to their verry own
+                chicken coop.  For us Mugherini's, it was love at first site.  The following year we added 4 more chickens.
+                Every year we add a different bread and the flock just keeps growing!</p>
+            </article>
+            <article class="col-md-6 col-lg-4 col-xl-3">
+                <h3>Staff</h3>
+                <p>Owner and Farmer: Andrea Mugherini</p>
+                <p>Farm Hands: Hailey Warren & Phiona Maloney</p>
+                <p>Farm Dog: Vincenzo Romanoff Mugherini-Maloney</p>
+            </article>
+            <article class="col-md-6 col-lg-4 col-xl-3">
+                <h3>Current Location</h3>
+                <p>We are located in Fremont NH</p>
+                <p><a href="#" class="btn btn-dark">View in Maps</a></p>
+            </article>
+        </div>
+        <h2 class="text-center display-5 border-bottom mb-3" id="products">Products</h2>
+        <div class="row g-3">
+            <article class="card col-md-6 col-lg-4 col-xl-3">
+                <h3 class="card-title" id="eggs">Eggs</h3>
+                <img class="card-img-top" src="photos/eggs.avif" alt="Eggs" height="200" />
+                <p class="card-body">Eggs come in small, medium and large sizes and are available at our self-service road-side stand. </p>
+            </article>
+            <article class="card col-md-6 col-lg-4 col-xl-3">
+                <h3 class="card-title" id="asparagus">Asparagus</h3>
+                <img class="card-img-top" src="photos/asparagus.jpeg" alt="Asparagus" height="200" />
+                <p class="card-body">Did you know asparagus is a perennial plant?  Check back in the spring for next year's harvest!</p>
+            </article>
+            <article class="card col-md-6 col-lg-4 col-xl-3">
+                <h3 class="card-title" id="chives">Chives</h3>
+                <img class="card-img-top" src="photos/chives.jpeg" alt="Chives" height="200" />
+                <p class="card-body">Sold by the bunch at our self-service road-side stand</p>
+            </article>
+            <article class="card col-md-6 col-lg-4 col-xl-3">
+                <h3 class="card-title" id="strawberries">Strawberries</h3>
+                <img class="card-img-top" src="photos/strawberry.jpeg" alt="Strawberries" height="200" />
+                <p class="card-body">Pick your own! Available in June! </p>
+            </article>
+        </div>
+    </main>
+    <!--- contact and media -->
+    <footer>
+        <p class="text-center small">
+            Contact us by <a href="mailto:mugherinifarms@gmail.com?subject=Farm%20Inquiry">Email </a>
+            or visit us on <a href="https://instagram.com/melaa24" target="_blank">Instagram</a>
+        </p>
+    </footer>
+</body>
+</html>
+
